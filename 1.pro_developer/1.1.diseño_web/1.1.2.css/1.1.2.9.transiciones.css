@@ -1,0 +1,49 @@
+/* 
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 2px;
+    transition: width 1s , height 2s;
+    transition: width 1s , transform 2s
+}
+
+div:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+ */
+
+
+ button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(155, 213, 228);
+    color: black;
+    margin: 1px;
+    transition: background-color 0.5s;
+    border-radius: 5px;
+
+}
+
+button:hover{
+    color: rgb(7, 7, 102);
+    background-color: rgb(207, 233, 239);
+}
+
+/* .velocidad1{
+    transition-timing-function: linear;
+}
+.velocidad2{
+    transition-timing-function: ease;
+}
+.velocidad3{
+    transition-timing-function: ease-in;
+}
+.velocidad4{
+    transition-timing-function: ease-out;
+}
+.velocidad5{
+    transition-timing-function: ease-in-out;
+} */

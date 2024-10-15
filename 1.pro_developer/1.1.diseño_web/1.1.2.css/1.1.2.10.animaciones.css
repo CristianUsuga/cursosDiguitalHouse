@@ -1,0 +1,40 @@
+div{
+    width: 100px;
+    height:100px ;
+    background-color: red;
+ 
+    animation: prueba 5s ease 2s infinite alternate; /* Nombre | Duración | tipo de curva | Delay |tipo Alternancia | tipo de dirección */
+}
+
+@keyframes prueba {
+    0%{
+        background-color: red;
+        height: 150px;
+        width: 150px;
+    }
+    25%{
+        background-color: green;
+        height: 150px;
+        width: 150px;
+    }
+    75%{
+        background-color: yellow;
+        height: 50px;
+        width: 50px;
+    }
+    100%{
+        background-color: red;
+        height: 150px;
+        width: 150px;
+    }
+}
+/* 
+    animation-name: prueba;
+    animation-duration: 3s;
+    Solo al comiezo
+    animation-delay: 2s; 
+    Cantidad de repeticiones
+    animation-iteration-count: 3;
+    ejecutar al reves
+    animation-direction: alternate; 
+ */

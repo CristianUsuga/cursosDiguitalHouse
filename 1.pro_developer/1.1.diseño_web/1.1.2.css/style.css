@@ -1,0 +1,162 @@
+/* comentario */
+
+
+/* Colores */
+/* Color Names: 140 tipos de nombres en CSS */
+h1 {
+  color: firebrick;
+  background-color: black;
+}
+/* Colores RGB: red, green,  blue */
+
+h4{
+  color: rgb(252, 10, 10)
+
+}
+  /* Colores en código hexagesimal */
+h4{
+  color: #000000;
+  background-color: #31e74f9d;
+}
+
+/* Colores HSL */
+
+h4{
+  color: hsla(0, 0%, 100%, 0.616);
+}
+
+#h2_color {
+  color: hsl(50, 100%, 50%);
+}
+
+#h2_aling {
+  text-align: end;
+}
+
+.overline {
+  text-decoration-line: overline;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+#Spacing {
+  width: 500px;
+  height: auto;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+#p_spacing {
+    
+  text-indent: 50px;
+  letter-spacing: 3px;
+  line-height: 1.5; /* Esta en factor. Ahora es un 50 porciento más de lo normal.  1 es 100%*/
+  word-spacing: 3px;
+  /* white-space: nowrap; */
+
+  text-shadow: 5px -5px 5px gray, -5px 5px 3px red;
+}
+
+.serif {
+    font-family: serif;  
+}
+.sans-serif {
+    font-family: sans-serif;
+}
+.monospace {
+    font-family: monospace;
+}
+.cursive {
+    font-family: cursive;
+}
+.fantasy {
+    font-family: fantasy;
+}
+
+.style{
+    font-style: normal;
+}
+
+ul.desordenada{
+    list-style: url(icons8-gato-64.png) ;
+    list-style-position:outside ;
+}
+
+ol.ordenada{
+    list-style: lower-roman;
+}
+
+
+table,th,td{
+  border: 1px solid black;
+  text-align: center;
+}
+th,td{
+  text-align: center;
+  padding: 15px;
+}
+table{
+  border-collapse: collapse;
+  width: 80%;
+  margin: 10px;
+}
+tr:nth-child(even){
+  background-color: rgba(189, 189, 189, 0.667);
+}
+tr:hover{
+  background-color: grey;
+}
+th{
+  background-color: rgb(199, 124, 199);
+}
+
+th{
+  height: 20px;
+}
+
+/* td{
+  height: 100px;
+  vertical-align: bottom;
+} */
+
+
+/* Fondos de colores */
+
+body{
+  /* background-color: hsl(300, 21%, 53%); */
+  /* opacity: .5; */
+
+  /* background-image: url(./assets/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed; */
+
+  background: #5d00ff url(assets/img/fondo.jpg) no-repeat right top;
+  background-size: cover;
+}
+
+p{
+  background-image: url(./assets/img/fondo.jpg);
+  background-position: right top;
+  background-attachment: fixed;
+}

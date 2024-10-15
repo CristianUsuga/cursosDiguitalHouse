@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex; /* Iniciamos comportamiento flexbox */
+    /* flex-wrap: nowrap ;*/ /* nowrap es no contenido o no empaquetado wrap lo contrario */
+    /* flex-wrap: wrap; */
+    background-color: rgb(5, 141, 141);
+
+    /* flex-direction: row; */
+
+    flex-flow: row  wrap; /*shorthand*/
+
+    /* justify-content: space-evenly; */
+
+    align-content: center;
+    justify-content: center;
+    height: 200px;
+}
+
+
+.flex-container > div{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    margin: 10px;
+}
+

@@ -1,0 +1,86 @@
+.grid-container {
+  display: grid; /*De esta forma tenemos un contenedor que funciona cmo caudrícula.*/
+  /* grid-template-columns: auto auto auto auto auto auto ; */
+  background-color: rgb(34, 113, 113);
+  border: 2px groove black;
+  padding: 10px;
+  gap: 5px;
+  /* justify-content: space-around; */
+  /* height: 400px; */
+  /* align-content: center; */
+  /* justify-content: center; */
+  grid-template-areas:
+    "header header header"
+    "navbar navbar navbar"
+    "noticias . publicidades"
+    "noticias . publicidades"
+    "noticias . banner"
+    "footer footer footer";
+}
+
+.grid-item {
+  background-color: aquamarine;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* .item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
+.item1 {
+  /* grid-column: 1/3;
+    grid-row: 1/3; */
+  grid-area: header;
+}
+.item2 {
+  grid-area: navbar;
+}
+.item3 {
+  grid-area: noticias;
+}
+.item4 {
+  grid-area: publicidades;
+}
+.item5 {
+  grid-area: banner;
+}
+.item6 {
+  grid-area: footer;
+}
+
+/* .item8 {
+  grid-area: 1/ 2/ 5 /6; La primera y la tercera son las filas y la segunda y la cuerta son las columnas
+} */
+
+
+@media screen and (max-width: 992px) {
+  .grid-container {
+    grid-template-areas:
+        "header header header"
+        "navbar navbar navbar"
+        "noticias noticias publicidades"
+        "noticias noticias publicidades"
+        "noticias noticias banner"
+        "footer footer footer";
+    }
+}
+
+@media screen and (max-width: 600px){
+    .grid-container {
+        grid-template-areas:
+            "header"
+            "navbar"
+            "noticias"
+            "publicidades"
+            "banner"
+            "footer";
+            gap: 2px;
+    }
+}

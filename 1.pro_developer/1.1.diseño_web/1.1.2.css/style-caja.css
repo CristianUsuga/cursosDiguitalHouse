@@ -1,0 +1,60 @@
+.contenedor1{
+    /* background-color: red; */
+    width: 200px;
+    height: 100px;
+    border-style: dashed solid groove ridge;
+    border-width: 10px;
+    border-color: brown;
+}
+.contenedor2{
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+}
+.contenedor3{
+    /* background-color: green; */
+    width: 200px;
+    height: 200px;
+    border: dashed blue;
+    border-radius: 10%;
+}
+
+div{
+    border-width: 10px;
+    border-radius: 20px;
+}
+.cajita{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    /* margin-bottom: 10px; */
+    /* margin-left: 20px; */
+    /* margin-right: 10px; */
+    margin: 5px; /*Sentido Horario*/
+    padding-top: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.cajita2{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    /* margin-top: 10px; */
+    /* margin-right: 20px; */
+    margin: 5px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+p{
+    text-align: center;
+}
+
+.solid{
+    width: 200px;
+    height: 50px;
+    border: 2px solid green;
+    outline: 2px solid black;
+    outline-offset: 5px;
+}

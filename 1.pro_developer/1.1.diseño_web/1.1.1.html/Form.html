@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form method="post">
+        <!-- INPUT TYPE TEXT -->
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
+        <br>
+        <!--    INPUT RADIO BUTTON -->
+        <label for="empleado">Empleado</label>
+        <input type="radio" name="situacion-laboral" id="empleado">
+        <label for="desempleado">Desempleado</label>
+        <input type="radio" name="situacion-laboral" id="desempleado">
+        <label for="busqueda">En búsqueda activa</label>
+        <input type="radio" name="situacion-laboral" id="busqueda">
+
+        <!--INPUT TYPE CHECKBOX -->
+        <h4>Tecnologías que manejas</h4>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="tecnologias" id="html" value="html">
+        <label for="css">CSS</label> 
+         <input type="checkbox" name="tecnologias" id="css" value="css">
+        <label for="javascript"> JAVASCRIPT</label>
+        <input type="checkbox" name="tecnologias" id="javascript" value="javascript">
+        <label for="react"> REACT</label>
+        <input type="checkbox" name="tecnologias" id="react" value="react">
+
+
+        <!-- TEXTAREA -->
+        <br>
+        <label for="motivo">Motivo:</label>
+        <br>
+        <textarea name="motivo" id="motivo" cols="30" rows="10"></textarea>
+
+        <br>
+        <!-- INPUT SUBMIT -->
+        <input type="submit" value="Enviar">
+
+        
+
+    </form>
+</body>
+
+</html>

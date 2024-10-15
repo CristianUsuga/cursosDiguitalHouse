@@ -1,0 +1,75 @@
+/* /* div > p{
+    background-color: aquamarine;
+} */
+
+/* .div-hijo > p{
+    background-color: aqua;
+} */
+
+
+/* div+p{
+    background-color: aquamarine;
+} */
+
+/* div~p{
+    background-color: bisque;
+}
+
+
+a:link{
+    color: chocolate;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+a:active{
+    color: blue;
+}
+
+p:first-child{
+    color: blueviolet;
+}
+
+
+
+p::before{
+    content: url(/1.1.2.css/icons8-gato-64.png);
+}
+
+::marker{
+    font-size: 55px;
+    color: darkgoldenrod;
+}
+
+::selection{
+    background-color: aqua;
+    color: tomato;
+}
+
+#img-opacity{
+    opacity: 1;
+}
+
+#img-opacity:hover{
+    opacity: 0.4;
+}
+
+.background{
+    background-color: rgb(177, 79, 79);
+    width: 500px;
+    height: 500px;
+}  */
+
+a[target="_blank"]{
+    color: aqua;
+}
+[class~="css"]{
+    background-color: burlywood;
+}
+
